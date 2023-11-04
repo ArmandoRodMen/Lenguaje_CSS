@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+}
+
+header{
+    padding-top: 1rem;
+}
+
+footer{
+    margin-top: 1rem;
+    display:block;
+    align-items: center;
+    text-align: center;
+}
+
+.logo{
+    margin-left: 3rem;
+    margin-bottom: 1rem;
+}
+
+.navegador{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 1rem;
+}
+
+.navbloque{
+    margin-right: 8rem;
+    padding-bottom: 1rem;
+}
+
+.linea{
+    background-color: rgba(77, 77, 77, 0.105);
+    height: 0.5rem;
+}
+
+.navbloque a{
+    color: #778973;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: medium;
+    margin-left: 1rem;
+}
+
+.encabezado {
+    background-image: url('../images/hero.jpg');
+    background-color: yellowgreen;
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 30rem;
+    overflow: hidden;
+}
+
+.parallax {
+    position: absolute;
+    overflow: hidden;
+    object-fit: contain;
+    height: 30rem;
+    transform: translate(1%);
+}
+
+.texto{
+    color: white;
+    position:absolute;
+    padding-top: 2rem;
+    padding-left: 6rem;
+    height: 25rem;
+    width: 100%;
+}
+
+.bold{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    text-indent: 20px;
+}
+
+.light{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+    font-size: 1.8rem;
+}
+
+.uno{
+    position:absolute;
+    top:7%;
+    right: 85%;
+}
+
+.dos{
+    font-size: 1.8rem;
+    position:absolute;
+    top:10%;
+    right: 65%;
+}
+
+.tres{
+    position:absolute;
+    top:18%;
+    left: 22%;
+}
+
+.cuatro{
+    position:absolute;
+    font-size: 3.6rem;
+    top:15%;
+    right: 58.8%;
+}
+
+.cinco{
+    position:absolute;
+    font-size: 3.6rem;
+    top:30%;
+    right: 56.5%;
+}
+
+.seis{
+    position:absolute;
+    top:45%;
+    right: 64.5%;
+}
+
+.pie{
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    color: #9c9272 ;
+}
+
+@media (max-width:680px)
+{
+    .texto{
+        padding-top: 2rem;
+        padding-left: 6rem;
+        color: white;
+        display: block;
+    }
+
+    .bold{
+        font-family: 'Open Sans', sans-serif;
+        font-weight: bold;
+        text-indent: 20px;
+    }
+
+    .light{
+        font-family: 'Open Sans', sans-serif;
+        font-weight: lighter;
+        font-size: 1.8rem;
+    }
+
+    .uno{
+        position:absolute;
+        top:7%;
+        right: 85%;
+    }
+    
+    .dos{
+        font-size: 1.8rem;
+        position:absolute;
+        top:10%;
+        right: 28%;
+    }
+    
+    .tres{
+        position:absolute;
+        top:18%;
+        left: 22%;
+    }
+    
+    .cuatro{
+        position:absolute;
+        font-size: 3.6rem;
+        top:15%;
+        right: 24%;
+    }
+    
+    .cinco{
+        position:absolute;
+        font-size: 3.6rem;
+        top:30%;
+        right: 20%;
+    }
+    
+    .seis{
+        position:absolute;
+        top:45%;
+        right: 30%;
+    }
+}
+
