@@ -64,7 +64,7 @@ footer{
     overflow: hidden;
     object-fit: contain;
     height: 30rem;
-    transform: translate(2%);
+    transform: translate(1.5%);
 }
 
 .texto{
